@@ -1,0 +1,1 @@
+# msvsd32bitsram
