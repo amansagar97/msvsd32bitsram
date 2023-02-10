@@ -9,8 +9,8 @@ We will first create an inverter using the Sky130 PDK that we installed through 
 For the scematic above, we can create symbol in two ways. We generate the symbol through **Symbol->Make symbol from schematic (A)** and it will generate the symbol shown in the left. We can do it manually using the drawing tools provided within the **xschem** and I created the one on the right.
 
 <p align="left">
-  <img width=500 src="./images/inverter_rb2.jpg">
-  <img width=500 src="./images/inverter_rb3.jpg">
+  <img width=500 src="https://github.com/amansagar97/msvsd32bitsram/blob/main/inverter_rb2.jpg">
+  <img width=500 src="https://github.com/amansagar97/msvsd32bitsram/blob/main.jpg">
 </p>
 
 When we create a custom symbol, we have to describe the global schematic property with something like given below. This is to make sure that SPICE recognizes our device when we use in our design. This can be set by clicking anywhere in the blank space and pressing **q** and entering the below informatin in the text box that appears as shown in the figure below.
@@ -21,14 +21,14 @@ format="@name @pinlist @symname"
 template="name=X1"
 ```
 <p align="center">
-  <img width=600 src="./images/inverter_rb4.jpg">
+  <img width=600 src="https://github.com/amansagar97/msvsd32bitsram/blob/main.jpg">
 </p>
 
 I also created a buffer from the inverter that I created above as shown below. 
 
 <p align="left">
-  <img width=500 src="./images/buffer_level0.jpg">
-  <img width=500 src="./images/buffer_level1.jpg">
+  <img width=500 src="https://github.com/amansagar97/msvsd32bitsram/blob/main/buffer_level0.jpg">
+  <img width=500 src="https://github.com/amansagar97/msvsd32bitsram/blob/main/buffer_level1.jpg">
 </p>
 
 
@@ -58,12 +58,12 @@ name=inverter_spice1 only_toplevel=false value=".tran 0.01n 1u
 ```
 
 <p align="left">
-  <img width=500 src="./images/inverter_setup.jpg">
-  <img width=200 src="./images/inverter_setup_1.jpg">
+  <img width=500 src="https://github.com/amansagar97/msvsd32bitsram/blob/main/inverter_setup.jpg">
+  <img width=200 src="https://github.com/amansagar97/msvsd32bitsram/blob/main/inverter_setup_1.jpg">
 </p>
 
 And, generating the netlist and running the simulation, we get the following output waveform.
 
 <p align="center">
-  <img width=500 src="./images/inverter_setup_2.jpg">
+  <img width=500 src="https://github.com/amansagar97/msvsd32bitsram/blob/main/inverter_setup_2.jpg">
 </p>
