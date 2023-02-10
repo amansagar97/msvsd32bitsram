@@ -10,7 +10,7 @@ For the scematic above, we can create symbol in two ways. We generate the symbol
 
 <p align="left">
   <img width=500 src="https://github.com/amansagar97/msvsd32bitsram/blob/main/inverter_sch2.jpg">
-  <img width=500 src="https://github.com/amansagar97/msvsd32bitsram/blob/inverter_rb3.jpg">
+  <img width=500 src="https://github.com/amansagar97/msvsd32bitsram/blob/main/inverter_as3.jpg">
 </p>
 
 When we create a custom symbol, we have to describe the global schematic property with something like given below. This is to make sure that SPICE recognizes our device when we use in our design. This can be set by clicking anywhere in the blank space and pressing **q** and entering the below informatin in the text box that appears as shown in the figure below.
@@ -21,7 +21,7 @@ format="@name @pinlist @symname"
 template="name=X1"
 ```
 <p align="center">
-  <img width=600 src="https://github.com/amansagar97/msvsd32bitsram/blob/main.jpg">
+  <img width=600 src="https://github.com/amansagar97/msvsd32bitsram/blob/main/inverter_as4.jpg">
 </p>
 
 I also created a buffer from the inverter that I created above as shown below. 
