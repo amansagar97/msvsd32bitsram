@@ -1,3 +1,5 @@
+HI  sir i am stuck with some problem and also i have my gate exam tommorow so not updated totally will catch up in next week
+
 # msvsd32bitsram
 ## task - Characterizing an inverter
 We will first create an inverter using the Sky130 PDK that we installed through the OpenPDK. To do that, let's first create an inverter. 
