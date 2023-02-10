@@ -1,9 +1,9 @@
 # msvsd32bitsram
-## 2. Characterizing an inverter
+## task - Characterizing an inverter
 We will first create an inverter using the Sky130 PDK that we installed through the OpenPDK. To do that, let's first create an inverter. 
 
 <p align="center">
-  <img src="./images/inverter_rb1.jpg">
+  <img src="./images/inverter_sch.jpg">
 </p>
 
 For the scematic above, we can create symbol in two ways. We generate the symbol through **Symbol->Make symbol from schematic (A)** and it will generate the symbol shown in the left. We can do it manually using the drawing tools provided within the **xschem** and I created the one on the right.
